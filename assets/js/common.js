@@ -28,14 +28,26 @@ $(function () {
     var $grid = $('.grid').masonry({
         "percentPosition": true,
         "itemSelector": ".grid-item",
-        "columnWidth": ".grid-sizer"
+        "columnWidth": ".grid-sizer",
+        "gutter": 0
     });
+    
+    // Enhanced layout function
+    function relayoutGrid() {
+        $grid.masonry('layout');
+    }
+    
     // layout Masonry after each image loads
     $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
+        relayoutGrid();
     });
 
     $(".lazy").on("load", function () {
-        $grid.masonry('layout');
+        relayoutGrid();
     });
+    
+    // Trigger layout after a short delay to ensure all content is rendered
+    setTimeout(function() {
+        relayoutGrid();
+    }, 100);
 })

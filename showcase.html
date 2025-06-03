@@ -5,12 +5,16 @@ navbar_title: Showcase
 container_class: container-xl
 ---
 
-{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
+{% assign all_cards = site.showcase | sort: "date" | reverse | where: "show", true %}
+{% assign cards_by_group = all_cards | group_by_exp: "item", "item.group" %}
 
-{% for group in cards_by_group %}
-<h1>{{ group.name }}</h1>
+<!-- Group titles as floating elements -->
 <div class="row grid mb-4">
     <div class="grid-sizer col-1"></div>
+    {% for group in cards_by_group %}
+    <div class="p-2 grid-item col-12">
+        <h1 class="group-title mb-3">{{ group.name }}</h1>
+    </div>
     {% for item in group.items %}
     {% if item.width >= 4 -%}
         {%- assign width_sm = 12 -%}
@@ -22,11 +26,11 @@ container_class: container-xl
         {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
         {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
     {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
+    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}" data-group="{{ group.name }}">
         <div class="{% if item.class != null %}{{ item.class }}{% else %}card border-0 shadow-sm bg-white{% endif %}">
             {{ item.content }}
         </div>
     </div>
     {% endfor %}
+    {% endfor %}
 </div>
-{% endfor %}
