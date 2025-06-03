@@ -7,6 +7,6 @@ group: Nexaspace
 <div class="container-fluid">
     <img src="{{ 'assets/images/friends/nexaspace-logo.png' | relative_url }}" 
          class="img-fluid rounded" 
-         style="max-width: 150px; max-height: 150px; object-fit: contain;">
+         style="max-width: 125px; max-height: 125px; object-fit: contain;">
 </div>
 

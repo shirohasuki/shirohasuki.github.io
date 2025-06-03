@@ -1,14 +1,13 @@
 ---
 show: true
 width: 6
-date: 2020-01-12 00:01:00 +0800
+date: 2020-01-13 00:01:00 +0800
 group: SEU-ACAL
 ---
 
 <!-- 友链展示 -->
 <div class="container-fluid">
     
-    <!-- 第一行 -->
     <div class="row">
         <div class="col-md-6">
             {% include widgets/friend_link_card.html 
@@ -18,6 +17,8 @@ group: SEU-ACAL
                link_icon="fas fa-external-link-alt"
                description="" %}
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/87872592?v=4"
