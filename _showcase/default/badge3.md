@@ -6,6 +6,6 @@ class: ""  # Override the default card style
 ---
 <div>
 <a href="https://buddycompiler.com" target="_blank">
-<img src="{{ 'assets/images/badges/buddy-compiler.png' | relative_url }}" class="img-fluid rounded" >
+<img src="{{ 'assets/images/badges/buddy-compiler.png' | relative_url }}" class="img-fluid rounded" data-toggle="tooltip" data-placement="top" title="Buddy Compiler">
 </a>
 </div>

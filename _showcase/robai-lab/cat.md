@@ -1,13 +1,12 @@
 ---
 show: true
-width: 3
+width: 6
 date: 2020-01-12 00:01:00 +0800
 group: RobAI-Lab
 ---
 
 <!-- 友链展示 -->
 <div class="container-fluid">
-    <h3 class="mb-4">友链</h3>
     
     <!-- 第一行 -->
     <div class="row">
