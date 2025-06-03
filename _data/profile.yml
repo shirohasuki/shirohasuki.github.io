@@ -1,6 +1,6 @@
-primary_name: "Shiroha"
+primary_name: "Hui Wang"
 secondary_name: ""
-navbar_name: "Hui Wang"
+navbar_name: "Shiroha"
 
 positions:
 - logo: /assets/images/badges/seu.png  # Logo is optional
@@ -22,12 +22,10 @@ github: https://github.com/shirohasuki
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a master student majoring in Integrated Circuit @Southeast University, under the supervision of <a href="https://zhejianguk.github.io/index.html" target="_blank">Zhe Jiang</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research interests are around MLSys. I am dedicated to achieving Efficient ML through the study of machine learning algorithms and software/hardware infrastructure. 
   </p>
 
 avatar_url: /assets/images/photos/mio.png
