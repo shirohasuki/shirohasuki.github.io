@@ -9,5 +9,6 @@ date: 2025-06-03 00:01:00 +0800
     <hr />
     <p>
         This <code>Showcase</code> is a broad page to share my cherished moments with friends and groups. 
+        I'm lucky enough to meet you all, and collaborating with you feels amazing.
     </p>
 </div>

@@ -18,6 +18,7 @@ github: https://github.com/shirohasuki
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
+bilibili: https://space.bilibili.com/200359295
 
 short_bio_text_justify: false
 short_bio: >-
@@ -31,11 +32,11 @@ short_bio: >-
     Research Interests: My research interests are around MLSys. I am dedicated to achieving Efficient ML through the 
                         study of machine learning algorithms and software/hardware infrastructure.
     <br>
-    - Efficient ML
+    ⚡<b>Algorithm:</b> SSL.
     <br>
-    - Sparse Memory Access
+    ⚡<b>Compiler:</b> MLIR.
     <br>
-    - Vector Runahead
+    ⚡<b>(Micro-)Architecture:</b> NPU.
   </p>
 
 avatar_url: /assets/images/photos/mio.png
