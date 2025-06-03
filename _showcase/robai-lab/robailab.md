@@ -10,7 +10,7 @@ group: RobAI-Lab
     
     <!-- 第一行 -->
     <div class="row">
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/44976445"
                username="beiyuouo"
@@ -18,7 +18,7 @@ group: RobAI-Lab
                link_icon="fas fa-external-link-alt"
                description="北屿" %}
         </div>
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/89144993?v=4"
                username="nemo"
@@ -30,7 +30,7 @@ group: RobAI-Lab
     
     <!-- 第二行 -->
     <div class="row">
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/109053824?v=4"
                username="April-Yz"
@@ -38,7 +38,7 @@ group: RobAI-Lab
                link_icon="fab fa-github"
                description=" " %}
         </div>
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/63180810?v=4"
                username="stargazer974"
