@@ -5,6 +5,8 @@ date: 2019-01-11 00:01:00 +0800
 group: Nexaspace
 ---
 <div class="container-fluid">
-    <img src="{{ 'assets/images/friends/nexaspace-logo.png' | relative_url }}">
+    <img src="{{ 'assets/images/friends/nexaspace-logo.png' | relative_url }}" 
+         class="img-fluid rounded" 
+         style="max-width: 200px; max-height: 200px; object-fit: contain;">
 </div>
 

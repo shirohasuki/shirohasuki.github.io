@@ -12,24 +12,24 @@ group: RobAI-Lab
     <div class="row">
         <div class="col-md-6">
             {% include widgets/friend_link_card.html 
-               avatar="https://avatars.githubusercontent.com/u/44976445"
-               username="beiyuouo"
-               url="https://blog.bj-yan.top/"
+               avatar="https://avatars.githubusercontent.com/u/97304283?v=4"
+               username="zhejianguk"
+               url="https://zhejianguk.github.io"
                link_icon="fas fa-external-link-alt"
-               description="北屿" %}
+               description="" %}
         </div>
         <div class="col-md-6">
             {% include widgets/friend_link_card.html 
-               avatar="https://avatars.githubusercontent.com/u/89144993?v=4"
-               username="NEMOlv"
-               url="https://github.com/NEMOlv"
+               avatar="https://avatars.githubusercontent.com/u/87872592?v=4"
+               username="Derain"
+               url="https://github.com/Derain123"
                link_icon="fab fa-github"
                description=" " %}
         </div>
     </div>
     
     <!-- 第二行 -->
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-6">
             {% include widgets/friend_link_card.html 
                avatar="https://avatars.githubusercontent.com/u/109053824?v=4"
@@ -46,5 +46,5 @@ group: RobAI-Lab
                link_icon="fab fa-github"
                description=" " %}
         </div>
-    </div>
+    </div> -->
 </div>
