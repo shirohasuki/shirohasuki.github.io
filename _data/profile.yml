@@ -1,16 +1,16 @@
-primary_name: "Hui Wang"
+primary_name: "Shiroha"
 secondary_name: ""
 navbar_name: "Hui Wang"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/badges/seu.png  # Logo is optional
+  name: Master Student
+# - name: 
 
 
 email: "whmio0115@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+gscholar: FrriXX0AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: https://github.com/shirohasuki
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -32,7 +32,7 @@ short_bio: >-
 
 avatar_url: /assets/images/photos/mio.png
 avatar_caption: >-
-  秋山澪さいこう！.
+  秋山澪さいこう！
 
 education:
 - name: Southeast University
@@ -45,12 +45,6 @@ education:
   logo: /assets/images/badges/hainanu.png
   position: B.S. in Electronic and Information Engineering
   date: Sep. 2020 - Jul. 2024
-
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
 
 awards:
 - name: Award Name 2
