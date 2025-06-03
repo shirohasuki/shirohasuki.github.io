@@ -1,0 +1,16 @@
+{%- assign friends = include.friends -%}
+{%- assign columns = include.columns | default: 2 -%}
+
+<div class="row">
+    {% for friend in friends %}
+    <div class="col-md-{{ 12 | divided_by: columns }} mb-3">
+        {% include widgets/friend_link_card.html 
+           avatar=friend.avatar 
+           username=friend.username 
+           url=friend.url 
+           link_icon=friend.link_icon 
+           description=friend.description 
+           target=friend.target %}
+    </div>
+    {% endfor %}
+</div> 
