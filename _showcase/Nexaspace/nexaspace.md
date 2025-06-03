@@ -5,7 +5,7 @@ date: 2019-01-12 00:01:00 +0800
 group: Nexaspace
 ---
 <div>
-    <img src="{{ 'assets/images/friends/nexaspace-logo.png' | relative_url }}" class="img-fluid>
+    <img src="{{ 'assets/images/friends/nexaspace-logo.png' | relative_url }}" class="img-fluid">
 </div>
 
 <div>
