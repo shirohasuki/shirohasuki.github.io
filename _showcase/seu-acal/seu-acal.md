@@ -2,7 +2,7 @@
 show: true
 width: 6
 date: 2020-01-12 00:01:00 +0800
-group: RobAI-Lab
+group: SEU-ACAL
 ---
 
 <!-- 友链展示 -->
@@ -27,24 +27,4 @@ group: RobAI-Lab
                description=" " %}
         </div>
     </div>
-    
-    <!-- 第二行 -->
-    <!-- <div class="row">
-        <div class="col-md-6">
-            {% include widgets/friend_link_card.html 
-               avatar="https://avatars.githubusercontent.com/u/109053824?v=4"
-               username="April-Yz"
-               url="https://github.com/April-Yz"
-               link_icon="fab fa-github"
-               description=" " %}
-        </div>
-        <div class="col-md-6">
-            {% include widgets/friend_link_card.html 
-               avatar="https://avatars.githubusercontent.com/u/63180810?v=4"
-               username="stargazer974"
-               url="https://github.com/stargazer974"
-               link_icon="fab fa-github"
-               description=" " %}
-        </div>
-    </div> -->
 </div>
