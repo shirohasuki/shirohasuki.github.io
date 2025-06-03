@@ -28,26 +28,14 @@ $(function () {
     var $grid = $('.grid').masonry({
         "percentPosition": true,
         "itemSelector": ".grid-item",
-        "columnWidth": ".grid-sizer",
-        "gutter": 0
+        "columnWidth": ".grid-sizer"
     });
-    
-    // Enhanced layout function
-    function relayoutGrid() {
-        $grid.masonry('layout');
-    }
-    
     // layout Masonry after each image loads
     $grid.imagesLoaded().progress(function () {
-        relayoutGrid();
+        $grid.masonry('layout');
     });
 
     $(".lazy").on("load", function () {
-        relayoutGrid();
+        $grid.masonry('layout');
     });
-    
-    // Trigger layout after a short delay to ensure all content is rendered
-    setTimeout(function() {
-        relayoutGrid();
-    }, 100);
 })
