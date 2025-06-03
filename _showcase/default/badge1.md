@@ -1,9 +1,9 @@
 ---
 show: true
 width: 1
-date: 2017-01-13 00:01:00 +0800
-class: ""  # Override the default card style
+date: 2024-09-01 00:01:00 +0800
+class: "  # Override the default card style
 ---
 <div>
-<img src="{{ 'assets/images/badges/PKU_red.png' | relative_url }}" class="img-fluid rounded" >
+<img src="{{ 'assets/images/badges/seu-acal.png' | relative_url }}" class="img-fluid rounded" >
 </div>
