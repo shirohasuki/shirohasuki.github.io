@@ -1,6 +1,6 @@
-primary_name: "Your Name"
+primary_name: "Hui Wang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Hui Wang"
 
 positions:
 - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
@@ -8,11 +8,11 @@ positions:
 - name: Position 2 without logo
 
 
-email: "your@email.com"
+email: "whmio0115@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+github: https://github.com/shirohasuki
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -30,21 +30,21 @@ short_bio: >-
     as well as being common in domestic longhair and domestic shorthair cats.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+avatar_url: /assets/images/photos/mio.png
+avatar_caption: >-
+  秋山澪さいこう！.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Southeast University
+  logo: /assets/images/badges/seu.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
+    Department of Integrated Circuit <br/>
+    Master Student
   date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Hainan University
+  logo: /assets/images/badges/hainanu.png
+  position: B.S. in Electronic and Information Engineering
+  date: Sep. 2020 - Jul. 2024
 
 # experience:
 # - name: Peking University
