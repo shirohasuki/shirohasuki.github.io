@@ -2,8 +2,12 @@
   bold: true
 
 "Zhe Jiang":
-  url: https://scholar.google.com/citations?hl=en&user=V5e-7hcAAAAJ&view_op=list_works&sortby=pubdate
+  url: https://scholar.google.com/citations?hl=en&user=V5e-7hcAAAAJ
 
-"Dawei Yang (Houmo AI)":
+"Dawei Yang":
   name: Dawei Yang
   url: https://scholar.google.com/citations?hl=en&user=j2ANma0AAAAJ
+
+"Yuan Cheng":
+  name: Yuan Cheng
+  url: https://scholar.google.com.hk/citations?user=X7hBA40AAAA
