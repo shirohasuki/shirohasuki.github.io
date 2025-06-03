@@ -68,32 +68,26 @@ div.lazy {
 }
 
 /* Floating layout styles for showcase */
-.group-title {
+.group-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 0.8rem 1.5rem;
+    padding: 0.25rem 0.75rem;
     border-radius: 12px;
-    margin: 1rem 0;
-    text-align: center;
-    box-shadow: 0 4px 15px 0 rgba(102, 126, 234, 0.3);
-    font-size: 1.5rem;
-    position: relative;
-    overflow: hidden;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    transition: all 0.3s ease;
 }
 
-.group-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    transition: left 0.5s;
-}
-
-.group-title:hover::before {
-    left: 100%;
+.group-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Enhanced card hover effects */
@@ -108,24 +102,38 @@ div.lazy {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
-/* Group-specific card border colors */
+/* Group-specific styling */
 .grid-item[data-group="RobAI-Lab"] .card {
     border-left: 4px solid #667eea;
+}
+
+.grid-item[data-group="RobAI-Lab"] .group-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .grid-item[data-group="Nexaspace"] .card {
     border-left: 4px solid #e85a4f;
 }
 
+.grid-item[data-group="Nexaspace"] .group-badge {
+    background: linear-gradient(135deg, #e85a4f 0%, #d73027 100%);
+}
+
 .grid-item[data-group="SEU-ACAL"] .card {
     border-left: 4px solid #4ecdc4;
 }
 
+.grid-item[data-group="SEU-ACAL"] .group-badge {
+    background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .group-title {
-        font-size: 1.2rem;
-        padding: 0.6rem 1rem;
+    .group-badge {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
+        top: -6px;
+        right: -6px;
     }
     
     .grid-item .card:hover {
